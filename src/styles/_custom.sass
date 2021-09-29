@@ -1,0 +1,133 @@
+.banner-principal__img
+  img
+    animation: float 6s ease-in-out infinite
+
+@keyframes float
+  0%
+    transform: translatey(0px)
+  50%
+    transform: translatey(-20px)
+  100%
+    transform: translatey(0px)
+
+.banner-principal__componente
+  h1
+    color: $color-secundario !important
+
+.BG10
+  background-color: transparentize($color-primario, 0.75) !important
+
+.BG20
+  background-color: lighten($color-secundario, 30%) !important
+
+.BG30
+  background-color: lighten($color-acento-contenido, 30%) !important
+
+.BG40
+  background-color: lighten($color-acento-botones, 30%) !important
+
+.BG31
+  background-color: lighten($color-acento-contenido, 36%) !important
+
+.bgIntro
+  background-image: url("../assets/curso/intro/bg01.svg")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: center bottom
+
+.bgImg01
+  background-image: url("../assets/curso/tema1/bg001.svg")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: left top
+
+.Mn01
+  margin-left: -47px
+
+.Dv11
+  width: 30px
+
+.separador
+  opacity: 0.4 !important
+
+.bgImg03
+  background-image: url("../assets/curso/tema1/img03.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: right center 
+
+.bgImg04
+  background-image: url("../assets/curso/tema1/img04.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: right center 
+
+.bgImg05
+  background-image: url("../assets/curso/tema1/img05.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: right center 
+
+.bgImg06
+  background-image: url("../assets/curso/tema1/img06.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: right center 
+
+.bgImg07
+  background-image: url("../assets/curso/tema1/img07.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: right center 
+
+.bgImg08
+  background-image: url("../assets/curso/tema1/img08.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: right center 
+
+.bgImg09
+  background-image: url("../assets/curso/tema1/img09.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: right center 
+
+.minH01
+  min-height: 340px !important
+
+.textShadow
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3)
+
+.br01
+  border-radius: 16px
+
+.TFcontainer
+  position: relative
+  width: 100%
+
+.TFimage
+  display: block
+  width: 100%
+  height: 350px
+  object-fit: cover !important
+  border-radius: 6px 6px 0 0
+
+.TFoverlay
+  position: absolute
+  bottom: 0
+  left: 0
+  right: 0
+  background-color: transparentize($color-primario, 0.2)
+  border-radius: 6px 6px 0 0
+  overflow: hidden
+  width: 100%
+  height: 50px
+  transition: .5s ease
+
+.TFcontainer:hover .TFoverlay
+  height: 100%
+
+@media screen and (max-width: 991px)
+  .TFimage
+    height: 200px
+    
