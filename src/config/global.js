@@ -29,8 +29,20 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
+            titulo: 'Eslabones de una cadena de suministro',
             hash: 't1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Fases de la cadena de suministro',
+            hash: 't1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Tipos de cadena de suministro',
+            hash: 't1_3',
           },
         ],
       },
@@ -40,14 +52,6 @@ export default {
         numero: '2',
         titulo: 'Gestión de la cadena de suministro',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Infografía Animada',
-            hash: 't_2_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -55,18 +59,9 @@ export default {
         numero: '3',
         titulo: 'Procesos de logística',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-        ],
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'Diferencias entre cadena de suministro y logística',
@@ -82,7 +77,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
         titulo: 'Procesos de la cadena de producción',
@@ -98,7 +93,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
         titulo: 'Procesos de la cadena de distribución',
@@ -114,7 +109,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema7',
         icono: 'far fa-file-alt',
         numero: '7',
         titulo: 'Diseño de productos',
@@ -130,7 +125,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema8',
         icono: 'far fa-file-alt',
         numero: '8',
         titulo: 'Procesos de servicios',
@@ -146,7 +141,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema9',
         icono: 'far fa-file-alt',
         numero: '9',
         titulo: 'Nivel de servicio',
@@ -162,7 +157,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema10',
         icono: 'far fa-file-alt',
         numero: '10',
         titulo: 'Tiempo de entrega en logística o <i>Lead Time</i>',
@@ -178,7 +173,23 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema11',
+        icono: 'far fa-file-alt',
+        numero: '11',
+        titulo: 'Cadena de valor',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '11.1',
+            titulo:
+              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            hash: 't_11_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema12',
         icono: 'far fa-file-alt',
         numero: '11',
         titulo: 'Cadena de valor',

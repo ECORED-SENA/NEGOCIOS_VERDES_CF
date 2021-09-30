@@ -118,7 +118,7 @@
       .col-lg-8
         .cajon.color-primario.p-4.mb-4.BG10
           .row.justify-content-center
-            .col-6.col-lg-2.mb-4.mb-md-0
+            .col-4.col-lg-2.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema1/img10.svg', alt='Recordemos')
             .col-lg-10
@@ -163,28 +163,28 @@
     p.mb-4 Existen diferentes tipos de cadena de suministro, las cuales se describen a continuación:
 
     TabsA.color-acento-contenido.mb-4
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Tradicional")
+      .tarjeta.color-acento-contenido.BG31.p-4(titulo="Tradicional")
         h4 Tradicional
         p Esta cadena de suministro funciona para empresas que no requieran muchas cantidades de materia prima al fabricar sus productos, y que tienen un proceso de fabricación tradicional en el que no se necesita un flujo de información continua.
       
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Directa")
+      .tarjeta.color-acento-contenido.BG31.p-4(titulo="Directa")
         h4 Directa
         p Es la cadena de suministro que tiene una empresa, un proveedor y un cliente que se involucran y están relacionados entre sí en varias áreas de la organización, es decir, que manejan los productos, la parte financiera, los servicios y la información en todos los eslabones de la cadena.
       
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Extendida")
+      .tarjeta.color-acento-contenido.BG31.p-4(titulo="Extendida")
         h4 Extendida
         p Es la cadena de suministro que tiene una empresa, un proveedor y un cliente que se involucran y están relacionados entre sí en varias áreas de la organización, es decir, que manejan los productos, la parte financiera, los servicios y la información en todos los eslabones de la cadena.
       
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Compartida")
+      .tarjeta.color-acento-contenido.BG31.p-4(titulo="Compartida")
         h4 Compartida
         p Tiene que ver con la toma de decisiones compartidas ya que, en cada eslabón de la cadena las personas encargadas toman sus decisiones de manera individual, pero cuentan con una base de datos definida y accesible en la cual se puede compartir información y permitiendo tener acceso a las decisiones que se van tomando durante el proceso.
       
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Compartida")
+      .tarjeta.color-acento-contenido.BG31.p-4(titulo="Compartida")
         h4 Sincronizada
         p Como su nombre lo indica, quiere decir que en esta cadena de suministro se realizan todas las fases de fabricación del producto de manera sincronizada. En otras palabras, se hace un seguimiento del flujo de entrada de materia prima hasta la salida del producto terminado entregado al almacén y listo para ser enviado o para la venta.
         p Debido a que todos los eslabones de la cadena de suministro deben estar muy bien sincronizados para el correcto funcionamiento de los procesos, se requiere de la implementación y #[strong uso de la tecnología que incorpore sistemas de información precisos] con el fin de permitir que ocurran los cambios durante el paso a paso de las actividades.
       
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Compartida")
+      .tarjeta.color-acento-contenido.BG31.p-4(titulo="Compartida")
         h4 Compleja
         p Incluye a todas las empresas involucradas en todos los eslabones tanto de productos, servicios, finanzas e información desde el último proveedor hasta el último cliente.
       
@@ -201,14 +201,6 @@
               a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Cadena_Cafe.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
-
-
-    
-
-          
-
-
-        
   
 </template>
 

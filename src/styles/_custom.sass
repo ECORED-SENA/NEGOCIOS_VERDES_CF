@@ -29,6 +29,9 @@
 .BG31
   background-color: lighten($color-acento-contenido, 36%) !important
 
+.BG00
+  background-color: $color-sistema-h !important
+
 .bgIntro
   background-image: url("../assets/curso/intro/bg01.svg")
   background-size: contain
@@ -42,7 +45,10 @@
   background-position: left top
 
 .Mn01
-  margin-left: -47px
+  margin-left: -47px !important
+
+.M01
+  margin-left: 47px !important
 
 .Dv11
   width: 30px
@@ -90,7 +96,13 @@
   background-image: url("../assets/curso/tema1/img09.png")
   background-size: cover
   background-repeat: no-repeat
-  background-position: right center 
+  background-position: right center
+
+.bgImg10
+  background-image: url("../assets/curso/tema5/bg01.svg")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: center 
 
 .minH01
   min-height: 340px !important
@@ -130,4 +142,12 @@
 @media screen and (max-width: 991px)
   .TFimage
     height: 200px
+
+.tabs-a__tab
+  background-color: $color-sistema-f
     
+.tableLYauto
+  table-layout: auto !important
+
+.lista-ol--cuadro__vineta
+  min-width: 28px !important
