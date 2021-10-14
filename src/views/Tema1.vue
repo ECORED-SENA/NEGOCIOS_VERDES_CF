@@ -136,22 +136,22 @@
     .row.justify-content-center
       .col-md-10.col-lg-4.mb-4.mb-lg-0
         .TFcontainer
-          img.TFimage(src='@/assets/curso/tema1/img11.png', alt='Fase 1')
-          .TFoverlay.text-white.p-3
+          img.TFimage(src='@/assets/curso/tema1/img11.jpg', alt='Fase 1')
+          .TFoverlay--01.text-white.p-3
             h5 Aprovisionamiento o suministro
             p.mb-0 Se relaciona con las actividades que son necesarias para adquirir y entregar las materias primas para la fabricación de los productos, esto incluye: la planeación de la demanda, inventarios y compras de materia prima a proveedores. En otras palabras, se define el cómo, dónde y cuándo se obtienen las materias primas para la producción.
       
       .col-md-10.col-lg-4.mb-4.mb-lg-0
         .TFcontainer
-          img.TFimage(src='@/assets/curso/tema1/img12.png', alt='Fase 2')
-          .TFoverlay.text-white.p-3
+          img.TFimage(src='@/assets/curso/tema1/img12.jpg', alt='Fase 2')
+          .TFoverlay--01.text-white.p-3
             h5 Fabricación o Producción
             p.mb-0 Aquí se convierten las materias primas en productos terminados o para el caso de una empresa de servicios, se da el proceso propio de producción del servicio.
       
       .col-md-10.col-lg-4.mb-4.mb-lg-0
         .TFcontainer
-          img.TFimage(src='@/assets/curso/tema1/img13.png', alt='Fase 3')
-          .TFoverlay.text-white.p-3
+          img.TFimage(src='@/assets/curso/tema1/img13.jpg', alt='Fase 3')
+          .TFoverlay--01.text-white.p-3
             h5 Distribución
             p.mb-0 Tiene que ver con que los productos terminados lleguen al consumidor final por medio de una red de distribución, almacenes, tiendas físicas de minoristas o plataformas en línea.
     

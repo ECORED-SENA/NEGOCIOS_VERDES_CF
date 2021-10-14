@@ -98,6 +98,12 @@ const router = new VueRouter({
           component: () =>
             import(/* webpackChunkName: "tema12" */ '../views/Tema12.vue'),
         },
+        {
+          path: 'tema13',
+          name: 'tema13',
+          component: () =>
+            import(/* webpackChunkName: "tema13" */ '../views/Tema13.vue'),
+        },
       ],
     },
     {

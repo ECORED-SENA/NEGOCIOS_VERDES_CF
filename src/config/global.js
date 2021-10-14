@@ -66,15 +66,6 @@ export default {
         numero: '4',
         titulo: 'Diferencias entre cadena de suministro y logística',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_4_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema5',
@@ -82,15 +73,6 @@ export default {
         numero: '5',
         titulo: 'Procesos de la cadena de producción',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_5_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema6',
@@ -102,9 +84,14 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '6.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_6_1',
+            titulo: 'Canal directo',
+            hash: 't6_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.2',
+            titulo: 'Canal indirecto',
+            hash: 't6_2',
           },
         ],
       },
@@ -114,15 +101,6 @@ export default {
         numero: '7',
         titulo: 'Diseño de productos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_7_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema8',
@@ -130,15 +108,6 @@ export default {
         numero: '8',
         titulo: 'Procesos de servicios',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '8.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_8_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema9',
@@ -146,15 +115,6 @@ export default {
         numero: '9',
         titulo: 'Nivel de servicio',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '9.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_9_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema10',
@@ -162,15 +122,6 @@ export default {
         numero: '10',
         titulo: 'Tiempo de entrega en logística o <i>Lead Time</i>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '10.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_10_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema11',
@@ -178,63 +129,20 @@ export default {
         numero: '11',
         titulo: 'Cadena de valor',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '11.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_11_1',
-          },
-        ],
       },
       {
         nombreRuta: 'tema12',
         icono: 'far fa-file-alt',
-        numero: '11',
-        titulo: 'Cadena de valor',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '11.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_11_1',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '12',
-        titulo: 'Sistemas <i>Push</i> y <i>Pull</i>',
+        titulo: 'Sistemas <i>Push y Pull</i>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '12.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_12_1',
-          },
-        ],
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema13',
         icono: 'far fa-file-alt',
         numero: '13',
         titulo: 'Redes de distribución',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '13.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_13_1',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -274,141 +182,168 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Beetrack. (s.f.). 15 conceptos básicos de logística y cadena de suministro. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.beetrack.com/es/blog/conceptos-basicos-de-logistica-cadena-de-suministr',
+    },
+    {
+      referencia: 'Biblioteca digital. (2013). Cadena de suministros. ',
+      link: 'http://tesis.uson.mx/digital/tesis/docs/22513/Capitulo2.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Chopra, S. y Meindl, P. (2008). Administración de la Cadena de Suministro. Estrategia, planeación y operación. Pearson. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://up-rid2.up.ac.pa:8080/xmlui/bitstream/handle/123456789/1340/Administraci%C3%B3n%20de%20la%20cadena%20de%20suministro.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Cotaquispe, R. (2021). Conoce las etapas del diseño de un producto para que el tuyo sea un éxito en ventas. Crehana. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.crehana.com/co/blog/diseno-productos/etapas-del-diseno-de-un-producto/',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+        'Evaluando Software.com. (2021). Tipos de cadenas de suministros. ',
+      link: 'https://www.evaluandosoftware.com/tipos-de-cadenas-de-suministro/',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'González, M. y Gómez, C. y Domínguez J. (S.F). Los servicios: concepto, clasificación y problemas de medición. Ekonomiaz No. 13 y 14. ',
+    },
+    {
+      referencia:
+        'IEBS SCHOOL. (2021). La Cadena de Gestión de Suministro (SCM): qué es y cuáles son las ventajas que ofrece. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.iebschool.com/blog/cadena-gestion-suministro-negocios-internacionales/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Iquique TV Noticias. (2019). La Cadena de Suministros y sus eslabones. [Video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=LeoQpz6UM7o',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Instituto Nacional de Tecnología Agropecuaria. (s.f.). Distribución: canales, logística y punto de venta. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://inta.gob.ar/sites/default/files/8-distribucion-canales-logistica.pdf',
+    },
+    {
+      referencia:
+        'Jiménez, J. y Hernández, A. (2002). Marco conceptual de la cadena de suministro: un nuevo enfoque logístico. ',
+      link:
+        'http://www.elmayorportaldegerencia.com/Documentos/Cadena%20Suministros/[PD]%20Documentos%20-%20Un%20nuevo%20enfoque%20logistico.pdf',
+    },
+    {
+      referencia: 'López, J. (2019). Tipos de logística. Economipedia. ',
+      link: 'https://economipedia.com/definiciones/tipos-de-logistica.html',
+    },
+    {
+      referencia:
+        'Mecalux Esmena. (2021). Sistema Push y Pull aplicado a la logística de producción. ',
+      link: 'https://www.mecalux.es/blog/push-pull-sistema',
+    },
+    {
+      referencia:
+        'NU. CEPAL. División de Comercio Internacional e Integración. (2001). Los desafíos de la clasificación de los Servicios y su importancia para las negociaciones comerciales. ',
+      link:
+        'https://www.cepal.org/es/publicaciones/4359-desafios-la-clasificacion-servicios-su-importancia-negociaciones-comerciales',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Cadena de valor',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'La cadena de valor es una herramienta estratégica que contribuye a establecer la ventaja competitiva de cualquier organización frente a otras, estudiando las actividades más relevantes. Con esta herramienta se pueden conocer las fortalezas de los procesos de producción de cada empresa, es decir, se pueden identificar cuáles son las actividades que generan valor, cómo funcionan los costos, las fuentes y la capacidad de diferenciarse de las otras.',
     },
     {
-      termino: 'Suftware',
-      terminoHtml: '<em>Suftware</em>',
+      termino: 'Distribución',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es una etapa de la cadena de suministro que se encarga de una serie de actividades que van desde movimiento del producto fabricado hasta cuando el producto llega a sus consumidores, es decir, el proceso de hacer llegar el producto terminado a los clientes.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Just in timen',
+      terminoHtml: '<em>Just in time</em>',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'JIT por sus siglas en inglés que significa método o sistema “Justo a Tiempo”. Es una metodología en la que se cuenta únicamente con la cantidad necesaria de producto, en el momento y lugar justo, eliminar cualquier desperdicio o elemento que no aporte valor.',
     },
     {
-      termino: 'Áectores',
-      terminoHtml: '<em>Áectores</em>',
+      termino: 'Heterogeneidad',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'También se le conoce como variabilidad, es una característica que significa que cada servicio ofrecido a un cliente puede variar dependiendo de factores humanos, tales como la salud física, su estado de ánimo, el grado de simpatía que le despierte ese cliente, entre otros y no se puede predecir antes de consumirlo. Se requiere de un proceso de estandarización del servicio.',
     },
     {
-      termino: 'Moda',
+      termino: 'Inseparabilidad',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Hace referencia a que cada servicio se produce, se vende y se consume en un mismo periodo de tiempo, es decir, la producción del servicio y el consumo suceden a la vez. Por lo tanto, esta característica está relacionada con la correlación que ocurre entre el proveedor y el cliente.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Intangibilidad',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Un servicio no está disponible al consumidor para que sea mirado, escuchado, degustado, tocado o pesado u olido, antes de tomar la decisión de compra. En otras palabras, los servicios no son palpables, son un hecho, ejecución o un esfuerzo. El consumo de un servicio no puede ser apartado de la producción. La intangibilidad es la diferencia primordial entre los bienes y los servicios.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Lead Time',
+      terminoHtml: '<em>Lead Time</em>',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Significa el tiempo de entrega en logística, es el periodo de tiempo que pasa desde que el cliente realiza la compra hasta que el proveedor entrega el producto al cliente, es decir, hasta que el cliente lo recibe. ',
     },
     {
-      termino: 'Tipología',
+      termino: 'Logística',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Es el proceso de coordinación, gestión y transporte de los bienes comerciales desde el lugar de distribución hasta el consumidor final.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Perecibilidad',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Es cuando un servicio no puede ser acopiado, almacenado, puesto o exhibido en un anaquel de una tienda para ser llevado por el comprador. Un servicio tiene fecha de inicio y de fin, es decir, caduca.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Stock',
+      terminoHtml: '<em>Stock</em>',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de mercancías o productos que se tienen almacenados en espera de su venta o comercialización.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Supply Chain',
+      terminoHtml: '<em>Supply Chain</em>',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'SC por sus siglas en inglés que significa Cadena de Suministro, es un proceso continuo que se desarrolla por eslabones, en donde cada eslabón es el insumo del siguiente, en el cual intervienen unos actores de la cadena, para transformar una materia prima en un producto terminado, con el fin de satisfacer las necesidades del consumidor final respecto a una compra realizada.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Supply Chain Management:',
+      terminoHtml: '<em>Supply Chain Management:</em>',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'SCM por sus siglas en inglés que significa Gestión o administración de la cadena de suministro, es un conjunto de actividades que integra tres procesos principales y los flujos de información, de productos y de pagos, en la planificación de las actividades de suministro, en la producción y en la distribución dentro de una empresa, con la participación de los proveedores, los clientes y los consumidores finales.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'Iquique TV Noticias. (2019). La Cadena de Suministros y sus eslabones [Video]. YouTube.”',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=LeoQpz6UM7o',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Chopra, S. y Meindl, P. (2008). Administración de la Cadena de Suministro. Estrategia, planeación y operación.',
+      tipo: 'libro',
+      link:
+        'http://up-rid2.up.ac.pa:8080/xmlui/bitstream/handle/123456789/1340/Administraci%c3%b3n%20de%20la%20cadena%20de%20suministro.pdf?sequence=1&isAllowed=y',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Jiménez, J. y Hernández, A. (2002). Marco conceptual de la cadena de suministro: un nuevo enfoque logístico. ',
+      tipo: 'Publicación Técnica',
+      link:
+        'http://www.elmayorportaldegerencia.com/Documentos/Cadena%20Suministros/[PD]%20Documentos%20-%20Un%20nuevo%20enfoque%20logistico.pdf',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      texto:
+        'IMEFI TV. (2017). Canales de Distribución - Marketing en un minuto [Video]. YouTube. ',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link:
+        'https://www.youtube.com/watch?v=cGwlGtu14O0&list=RDCMUCwh64yBHC2TCaNMaSRHHTCA&index=1',
     },
   ],
   creditos: {
@@ -440,13 +375,19 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Luis Gabriel Urueta Alvarez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'María Natalia Maldonado Delgado',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Diego Fernando Velasco Güiza',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

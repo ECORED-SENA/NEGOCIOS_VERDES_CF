@@ -15,7 +15,7 @@
     color: $color-secundario !important
 
 .BG10
-  background-color: transparentize($color-primario, 0.75) !important
+  background-color: transparentize($color-primario, 0.7) !important
 
 .BG20
   background-color: lighten($color-secundario, 30%) !important
@@ -32,6 +32,9 @@
 .BG00
   background-color: $color-sistema-h !important
 
+.BG11
+  background-color: transparentize($color-primario, 0.8) !important
+
 .bgIntro
   background-image: url("../assets/curso/intro/bg01.svg")
   background-size: contain
@@ -43,6 +46,12 @@
   background-size: contain
   background-repeat: no-repeat
   background-position: left top
+
+.bgImg011
+  background-image: url("../assets/curso/tema1/bg001.svg")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: center
 
 .Mn01
   margin-left: -47px !important
@@ -129,12 +138,19 @@
   bottom: 0
   left: 0
   right: 0
-  background-color: transparentize($color-primario, 0.2)
   border-radius: 6px 6px 0 0
   overflow: hidden
   width: 100%
   height: 50px
   transition: .5s ease
+
+  &--01
+    @extend .TFoverlay
+    background-color: transparentize($color-primario, 0.2)
+  
+  &--02
+    @extend .TFoverlay
+    background-color: transparentize($color-acento-contenido, 0.2)
 
 .TFcontainer:hover .TFoverlay
   height: 100%
@@ -151,3 +167,45 @@
 
 .lista-ol--cuadro__vineta
   min-width: 28px !important
+
+.tabs-a__tab__selected
+  color: $white !important
+
+.pasos-a.color-acento-contenido .pasos-a__circle div
+  color: $white !important
+
+.bordColor01
+  border: 2px solid $color-primario
+  border-radius: 16px
+
+.bordColor02
+  border: 2px solid $color-secundario
+  border-radius: 16px
+
+.BGEsp01
+  background-color: #FFCF10 !important
+
+.BGEsp02
+  background-color: #86DDCD !important
+
+.BGEsp03
+  background-color: #F14445 !important
+
+.BGEsp04
+  background-color: #AC94E6 !important
+
+.BGEsp05
+  background-color: #BCD533 !important
+
+.BGEsp06
+  background-color: #A0A603 !important
+
+.mtN01
+  margin-top: -100px
+
+.mtO01
+  margin-top: 80px
+
+.lista-ol--cuadro__vineta
+  background-color: $color-primario
+  
