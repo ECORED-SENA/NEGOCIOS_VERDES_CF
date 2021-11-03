@@ -25,7 +25,7 @@
 
         .tabla-a.color-acento-contenido
           table.tableLYauto
-            caption Nota. Tabla adaptada de Beetrack (s.f.) Diferencia entre logística y cadena de suministro.
+            caption Nota. Tabla adaptada de Beetrack (s.f.). Diferencia entre logística y cadena de suministro.
             thead
               tr
                 th Aspectos
@@ -50,12 +50,12 @@
                 td Satisface la demanda de los clientes.
               tr
                 td Tecnologías
-                td Sistema Supply Chain Management (SCM).
-                td Sistema informático destinado a la gestión de almacén y software para transporte.
+                td Sistema #[i Supply Chain Management] (SCM).
+                td Sistema informático destinado a la gestión de almacén y #[i software] para transporte.
               tr
                 td Responsable
-                td Supply Chain Manager.
-                td Gerente o jefe de Logística.
+                td #[i Supply chain manager].
+                td Gerente o jefe de logística.
 
 </template>
 

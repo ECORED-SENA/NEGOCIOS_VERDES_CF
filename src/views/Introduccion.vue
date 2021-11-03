@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-5 Hoy en día, con el crecimiento de consumidores de productos y servicios que cuentan con #[strong prácticas ambientales sostenibles] y #[strong responsables socialmente], todos los esfuerzos que se realicen por parte de los emprendedores o las empresas en diseñar, planear y operar estratégicamente una cadena de suministro y de logística de un producto, repercutirán directamente en beneficios a los clientes, al medio ambiente y a las mismas empresas o emprendedores ya que, elevará su competitividad frente a otras compañíasdel mercado al tener elementos diferenciadores acordes a la situación actual.
+    p.mb-5 Hoy en día, con el crecimiento de consumidores de productos y servicios que cuentan con #[strong prácticas ambientales sostenibles] y #[strong responsables socialmente], todos los esfuerzos que se realicen por parte de los emprendedores o las empresas en diseñar, planear y operar estratégicamente una cadena de suministro y de logística de un producto, repercutirán directamente en beneficios a los clientes, al medio ambiente y a las mismas empresas o emprendedores ya que, elevará su competitividad frente a otras compañías del mercado al tener elementos diferenciadores acordes a la situación actual.
 
     .row.justify-content-center
       .col-lg-6.mb-4.mb-md-0

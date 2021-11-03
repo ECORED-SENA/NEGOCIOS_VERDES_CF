@@ -6,14 +6,14 @@
     .titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Procesos de la Cadena de Suministro o #[i Supply Chain]
+      h1 Procesos de la cadena de suministro o #[i Supply chain]
     
     .row.bgImg01.mb-4
       .col-lg-5.mb-4.mb-md-0
         figure.Mn01
           img(src='@/assets/curso/tema1/img01.png', alt='Cadena de Suministro')
       .col-10.col-lg-6
-        p.mb-0.mt-5 Una cadena de suministro o Supply Chain en inglés, de acuerdo con la definición de Chopra & Meindl (2008), es un proceso continuo que se desarrolla por eslabones o niveles, en el cual cada eslabón es el insumo del siguiente, donde intervienen los actores de la cadena, para transformar un producto desde el origen (materia prima) en un producto terminado, con el fin de satisfacer las necesidades del consumidor final respecto a una compra realizada, es decir, que el producto o servicio que el cliente compró, le sea entregado correctamente.
+        p.mb-0.mt-5 Una #[b cadena de suministro] o #[b #[i supply chain] ] en inglés, de acuerdo con la definición de Chopra & Meindl (2008), es un proceso continuo que se desarrolla por eslabones o niveles, en el cual cada eslabón es el insumo del siguiente, donde intervienen los actores de la cadena, para transformar un producto desde el #[b origen] (materia prima) en un #[b producto terminado], con el fin de satisfacer las necesidades del consumidor final respecto a una compra realizada, es decir, que el producto o servicio que el cliente compró, le sea entregado correctamente.
     
     .row.justify-content-center
       .col-lg-10
@@ -21,7 +21,7 @@
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 1. 
-          span Cadena de Suministro
+          span Cadena de suministro
         figure
           img(src='@/assets/curso/tema1/img02.svg', alt='Cadena de Suministro')
     
@@ -94,7 +94,7 @@
             
             .row.bgImg05.minH01.justify-content-end.align-items-center.br01(titulo="")
               .col-md-5.text-white.text-end.pe-5.textShadow
-                h1.mb-0 Almacén de materia prima
+                h1.mb-0 Producción o transformación de la materia prima
             
             .row.bgImg06.minH01.justify-content-end.align-items-center.br01(titulo="")
               .col-md-5.text-white.text-end.pe-5.textShadow
@@ -122,7 +122,7 @@
               figure
                 img(src='@/assets/curso/tema1/img10.svg', alt='Recordemos')
             .col-lg-10
-              .h4.mb-2 Recordemos que
+              .h4.mb-2 Recordemos que:
               p.mb-0 Cada empresa puede establecer los eslabones de su propia cadena de suministro acorde con la organización, sus necesidades, los recursos disponibles y de la complejidad del modelo de negocio.
     
     Separador
@@ -145,7 +145,7 @@
         .TFcontainer
           img.TFimage(src='@/assets/curso/tema1/img12.jpg', alt='Fase 2')
           .TFoverlay--01.text-white.p-3
-            h5 Fabricación o Producción
+            h5 Fabricación o producción
             p.mb-0 Aquí se convierten las materias primas en productos terminados o para el caso de una empresa de servicios, se da el proceso propio de producción del servicio.
       
       .col-md-10.col-lg-4.mb-4.mb-lg-0
@@ -163,32 +163,32 @@
     p.mb-4 Existen diferentes tipos de cadena de suministro, las cuales se describen a continuación:
 
     TabsA.color-acento-contenido.mb-4
-      .tarjeta.color-acento-contenido.BG31.p-4(titulo="Tradicional")
+      .tarjeta.color-acento-contenido.bordColor03.BG31.p-4(titulo="Tradicional")
         h4 Tradicional
         p Esta cadena de suministro funciona para empresas que no requieran muchas cantidades de materia prima al fabricar sus productos, y que tienen un proceso de fabricación tradicional en el que no se necesita un flujo de información continua.
       
-      .tarjeta.color-acento-contenido.BG31.p-4(titulo="Directa")
+      .tarjeta.color-acento-contenido.bordColor03.BG31.p-4(titulo="Directa")
         h4 Directa
         p Es la cadena de suministro que tiene una empresa, un proveedor y un cliente que se involucran y están relacionados entre sí en varias áreas de la organización, es decir, que manejan los productos, la parte financiera, los servicios y la información en todos los eslabones de la cadena.
       
-      .tarjeta.color-acento-contenido.BG31.p-4(titulo="Extendida")
+      .tarjeta.color-acento-contenido.bordColor03.BG31.p-4(titulo="Extendida")
         h4 Extendida
-        p Es la cadena de suministro que tiene una empresa, un proveedor y un cliente que se involucran y están relacionados entre sí en varias áreas de la organización, es decir, que manejan los productos, la parte financiera, los servicios y la información en todos los eslabones de la cadena.
+        p Se relaciona con la coordinación de esfuerzos y comunicación que debe existir entre los eslabones de la cadena involucrados en el flujo de los productos, de la parte financiera, los servicios y de información en permanente comunicación (proveedores, empresa que produce, distribuidores y puntos de venta) para sincronizar la oferta y la demanda.
       
-      .tarjeta.color-acento-contenido.BG31.p-4(titulo="Compartida")
+      .tarjeta.color-acento-contenido.bordColor03.BG31.p-4(titulo="Compartida")
         h4 Compartida
         p Tiene que ver con la toma de decisiones compartidas ya que, en cada eslabón de la cadena las personas encargadas toman sus decisiones de manera individual, pero cuentan con una base de datos definida y accesible en la cual se puede compartir información y permitiendo tener acceso a las decisiones que se van tomando durante el proceso.
       
-      .tarjeta.color-acento-contenido.BG31.p-4(titulo="Compartida")
+      .tarjeta.color-acento-contenido.bordColor03.BG31.p-4(titulo="Sincronizada")
         h4 Sincronizada
         p Como su nombre lo indica, quiere decir que en esta cadena de suministro se realizan todas las fases de fabricación del producto de manera sincronizada. En otras palabras, se hace un seguimiento del flujo de entrada de materia prima hasta la salida del producto terminado entregado al almacén y listo para ser enviado o para la venta.
         p Debido a que todos los eslabones de la cadena de suministro deben estar muy bien sincronizados para el correcto funcionamiento de los procesos, se requiere de la implementación y #[strong uso de la tecnología que incorpore sistemas de información precisos] con el fin de permitir que ocurran los cambios durante el paso a paso de las actividades.
       
-      .tarjeta.color-acento-contenido.BG31.p-4(titulo="Compartida")
+      .tarjeta.color-acento-contenido.bordColor03.BG31.p-4(titulo="Compleja")
         h4 Compleja
-        p Incluye a todas las empresas involucradas en todos los eslabones tanto de productos, servicios, finanzas e información desde el último proveedor hasta el último cliente.
+        p Incluye a todas las empresas involucradas en todos los eslabones tanto de productos, servicios, finanzas e información, desde el último proveedor hasta el último cliente.
       
-    .tarjeta.color-primario.p-3
+    .tarjeta.color-secundario.p-3
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/tema1/img14.svg")

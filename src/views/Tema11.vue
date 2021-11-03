@@ -21,19 +21,19 @@
 
     .row.justify-content-center.mb-5
       .col-md-3.mb-4.mb-lg-0.d-flex
-        .BG00.bordColor02.br01.p-4.w-100
+        .BG00.bordColor02.br01.p-4
           h4 Grado de integración
-          p.mb-0 Aspecto determina las actividades que la propia empresa hace sin necesidad de acudir a otras empresas.
+          p.mb-0 Este aspecto determina las actividades que la propia empresa hace sin necesidad de acudir a otras empresas.
       .col-md-3.mb-4.mb-lg-0.d-flex
-        .BG00.bordColor01.br01.p-4.w-100
+        .BG00.bordColor01.br01.p-4
           h4 Panorama industrial
           p.mb-0 Este aspecto permite conocer la relación entre el mercado y los sectores con los que se relaciona la empresa y la competencia.
       .col-md-3.mb-4.mb-lg-0.d-flex
-        .BG00.bordColor02.br01.p-4.w-100
+        .BG00.bordColor02.br01.p-4
           h4 Panorama de segmento
-          p.mb-0 Este aspecto se refiere a los cambios con los que se puede afectar el producto, los compradores y como pueden afectar las ventas.
+          p.mb-0 Este aspecto se refiere a los cambios con los que se puede afectar el producto, los compradores y cómo pueden afectar las ventas.
       .col-md-3.d-flex
-        .BG00.bordColor01.br01.p-4.w-100
+        .BG00.bordColor01.br01.p-4
           h4 Panorama geográfico
           p.mb-0 Este aspecto se refiere al análisis de los lugares donde la empresa compite. Se identifican los países, ciudades o regiones.
     
@@ -55,20 +55,20 @@
             p.text-dark Incluye las operaciones de recepción, almacenamiento, distribución y devolución de producto, si aplica, de las materias primas.
           
           .tarjeta.color-primario.BGEsp02.p-3(y="51.9%" x="32.8%")
-            .h5.mb-2 Operación o producción
-            p Son las actividades en las que se transforma la materia prima en el producto final.
+            .h5.mb-2.text-dark Operación o producción
+            p.text-dark Son las actividades en las que se transforma la materia prima en el producto final.
           
           .tarjeta.color-primario.BGEsp03.p-3(y="63.2%" x="51.6%")
             .h5.mb-2 Logística externa o de salida
             p Actividad de logística que se orienta en acopiar y distribuir el producto terminado al consumidor.
           
           .tarjeta.color-primario.BGEsp04.p-3(y="52.5%" x="69.8%")
-            .h5.mb-2 Marketing y ventas
+            .h5.mb-2 #[i Marketing] y ventas
             p Actividades con las que se hace publicidad para dar a conocer el producto y se generan las ventas de este.
           
           .tarjeta.color-primario.BGEsp05.p-3(y="30.5%" x="76.5%")
-            .h5.mb-2 Atención al cliente
-            p actividades que tienen que ver con el suministro del servicio postventa para mantener el valor del producto o realizarlo, es decir, todo el acompañamiento que se hace a los compradores, tales como garantía, mantenimiento, instalación, entre otros.
+            .h5.mb-2.text-dark Atención al cliente
+            p.text-dark Actividades que tienen que ver con el suministro del servicio postventa para mantener el valor del producto o realizarlo, es decir, todo el acompañamiento que se hace a los compradores, tales como garantía, mantenimiento, instalación, entre otros.
 
     h3 Actividades secundarias o de apoyo
 

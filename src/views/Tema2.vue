@@ -12,7 +12,7 @@
       .col-md-6
         h2 Se conoce en inglés como #[i Supply Chain Management] (SCM), y se refiere al ciclo de vida de un producto o servicio, desde su creación hasta su consumo.
       .col-md-6
-        p Es un conjunto de actividades que integra 3 procesos principales y los flujos desde la planificación de las actividades de suministro, la producción y la distribución dentro de una empresa, con la participación de los proveedores, los clientes y los consumidores finales.
+        p Es un conjunto de actividades que integra 3 procesos principales y los flujos desde la #[strong planificación de las actividades de suministro, la producción y la distribución] dentro de una empresa, con la participación de los proveedores, los clientes y los consumidores finales.
     
     p.mb-4 Una cadena de suministro integra tres (3) elementos:
 
@@ -38,7 +38,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 2. 
-          span Cadena de Suministro
+          span Ejemplo de un modelo de SCM estándar
         figure
           img.mb-3(src='@/assets/curso/tema2/img04.svg', alt='Cadena de Suministro')
           figcaption Nota. Cadena de suministros. Biblioteca digital. (2013).

@@ -8,7 +8,7 @@
         span 9
       h1 Nivel de servicio
     
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4
       .col-6.col-lg-3.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/tema9/img01.svg', alt='ciclo del nivel de serviciod')
@@ -45,7 +45,7 @@
       .row
         .col-md-6.mb-4.mb-md-0
           h4 Nivel Criminal
-          p Se refiere al incumplimiento de la promesa de servicio dejando de creer totalmente en la la marca o en la empresa. La actitud que toma el cliente es la de detractor, puesto que lo que esperaba no se cumplió o no se dio, sintiéndose decepcionado y lastimado en lo más profundo.      
+          p Se refiere al incumplimiento de la promesa de servicio dejando de creer totalmente en la marca o en la empresa. La actitud que toma el cliente es la de detractor, puesto que lo que esperaba no se cumplió o no se dio, sintiéndose decepcionado y lastimado en lo más profundo.      
         .col-md-6
           figure
             img(src='@/assets/curso/tema9/img10.jpg', alt='Nivel Criminal')
@@ -80,10 +80,10 @@
           p Este servicio es aquel que es totalmente asombroso e imprevisto, además de gratificante para el cliente. Este servicio supera considerablemente cualquier expectativa y le genera emoción de felicidad a través de una sonrisa. El cliente cuenta su fabulosa experiencia a conocidos, familia y amigos y por lo tanto su actitud frente al servicio lo hace promocionar la marca y acercar a otras personas a la empresa, es decir, se convierte en promotor.
         .col-md-6
           figure
-            img(src='@/assets/curso/tema9/img08.jpg', alt='Nivel Alucinante')
+            img(src='@/assets/curso/tema9/img09.jpg', alt='Nivel Alucinante')
     
     h4 Cálculo del nivel de servicio
-    p.mb-4 Existe una manera básica para calcular el nivel de servicio, teniendo en cuenta el número de artículos de una referencia que se vendieron y el número de artículos que no pudieron ser suministrados por falta de existencias o stock, existiendo un pedido por parte del cliente. Se calcula de la siguiente forma:
+    p.mb-4 Existe una manera básica para calcular el nivel de servicio, teniendo en cuenta el número de artículos de una referencia que se vendieron y el número de artículos que no pudieron ser suministrados por falta de existencias o #[i stock], existiendo un pedido por parte del cliente. Se calcula de la siguiente forma:
 
     .row.justify-content-center
       .col-lg-7.bordColor01.p-5.mb-5
@@ -92,7 +92,7 @@
         
       .col-lg-10
         .cajon.color-primario.BG11.p-5
-          .h5.mb-1 Acuerdo de Nivel de Servicio (ANS) - Service Level Agreement (SLA)
+          .h5.mb-1 Acuerdo de Nivel de Servicio (ANS) - #[i Service Level Agreement] (SLA)
           p.mb-0 Es un documento en el que se establece el nivel de servicio que un cliente espera de su proveedor, es decir, un acuerdo acerca de las pautas de un producto o de un servicio. La forma del documento más usado para establecer el acuerdo es a través de un contrato. Un ANS sirve para que tanto proveedor como cliente estén al tanto de qué esperar, y también, es la forma jurídica para hacer que estos acuerdos se cumplan.
 
 </template>

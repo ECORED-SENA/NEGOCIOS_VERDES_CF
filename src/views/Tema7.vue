@@ -54,12 +54,12 @@
               figure
                 img(src='@/assets/curso/tema7/img05.svg', alt='Fabricación del producto')
             .col-md-10
-              h3 Fabricació del producto
+              h3 Fabricación del producto
               p En este paso, se realiza la fabricación especializada del producto diseñado. 
 
           .row.justify-content-center
             .col-md-10.mb-4.mb-md-0
-              h3 Lanzamiento de producto
+              h3 Lanzamiento del producto
               p 
                 | Este es el paso final, una vez se tiene el producto fabricado y listo para comercializarse en el mercado, las empresas o los emprendedores deben planear una estrategia de mercadeo que sea efectiva para captar los clientes potenciales e introducir el producto diseñado en los consumidores.
                 br

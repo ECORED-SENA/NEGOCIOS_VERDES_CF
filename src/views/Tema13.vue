@@ -92,7 +92,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 4
-              | Distribución mediante subcontratación u outsourcing.
+              | Distribución mediante subcontratación u #[i outsourcing].
             li 
               .lista-ol--cuadro__vineta
                 span 5

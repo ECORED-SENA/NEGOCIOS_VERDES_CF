@@ -65,10 +65,10 @@
                 td Demanda no predecible al 100 % ocasionando errores en la planificación de la demanda.
                 td Aumento en los tiempos de producción porque se puede demorar la compra de materia prima o materiales para su producción o en el despacho del producto terminado.
               tr
-                td Riesgo de romper el stock: inventario escaso o exceso de inventario.
+                td Riesgo de romper el #[i stock]: inventario escaso o exceso de inventario.
                 td Aumento en tiempos de entrega del producto terminado (puede no llegar a ser entrega inmediata).
               tr
-                td Aumento en costos de almacenamiento (si hay ruptura del stock).
+                td Aumento en costos de almacenamiento (si hay ruptura del #[i stock]).
                 td Costos de producción por unidad más altos porque el producto no se fabrica en masa o a gran escala.
 
 </template>

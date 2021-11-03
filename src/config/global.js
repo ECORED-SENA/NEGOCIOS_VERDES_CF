@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Procesos de la Cadena de Suministro o <i>Supply Chain</i>',
+        titulo: 'Procesos de la cadena de suministro o <i>Supply chain</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -120,7 +120,7 @@ export default {
         nombreRuta: 'tema10',
         icono: 'far fa-file-alt',
         numero: '10',
-        titulo: 'Tiempo de entrega en logística o <i>Lead Time</i>',
+        titulo: 'Tiempo de entrega en logística o <i>Lead time</i>',
         desarrolloContenidos: true,
       },
       {
@@ -198,7 +198,7 @@ export default {
     },
     {
       referencia:
-        'Cotaquispe, R. (2021). Conoce las etapas del diseño de un producto para que el tuyo sea un éxito en ventas. Crehana. ',
+        'Fantino, J. (2021). Diseño de un producto: ¿cuál es el paso a paso ideal para diseñar productos que enamoren a tus clientes? Crehana. ',
       link:
         'https://www.crehana.com/co/blog/diseno-productos/etapas-del-diseno-de-un-producto/',
     },
@@ -209,7 +209,7 @@ export default {
     },
     {
       referencia:
-        'González, M. y Gómez, C. y Domínguez J. (S.F). Los servicios: concepto, clasificación y problemas de medición. Ekonomiaz No. 13 y 14. ',
+        'González, M. y Gómez, C. y Domínguez J. (s.f.). Los servicios: concepto, clasificación y problemas de medición. Ekonomiaz No. 13 y 14. ',
     },
     {
       referencia:
@@ -240,12 +240,12 @@ export default {
     },
     {
       referencia:
-        'Mecalux Esmena. (2021). Sistema Push y Pull aplicado a la logística de producción. ',
+        'Mecalux Esmena. (2021). Sistema <i>Push</i> y <i>Pull</i> aplicado a la logística de producción. ',
       link: 'https://www.mecalux.es/blog/push-pull-sistema',
     },
     {
       referencia:
-        'NU. CEPAL. División de Comercio Internacional e Integración. (2001). Los desafíos de la clasificación de los Servicios y su importancia para las negociaciones comerciales. ',
+        'NU. CEPAL. División de Comercio Internacional e Integración. (2001). Los desafíos de la clasificación de los servicios y su importancia para las negociaciones comerciales. ',
       link:
         'https://www.cepal.org/es/publicaciones/4359-desafios-la-clasificacion-servicios-su-importancia-negociaciones-comerciales',
     },
@@ -265,7 +265,7 @@ export default {
       termino: 'Just in timen',
       terminoHtml: '<em>Just in time</em>',
       significado:
-        'JIT por sus siglas en inglés que significa método o sistema “Justo a Tiempo”. Es una metodología en la que se cuenta únicamente con la cantidad necesaria de producto, en el momento y lugar justo, eliminar cualquier desperdicio o elemento que no aporte valor.',
+        ' JIT por sus siglas en inglés que significa método o sistema “Justo a Tiempo”. Es una metodología en la que se cuenta únicamente con la cantidad necesaria de producto, en el momento y lugar justo, eliminar cualquier desperdicio o elemento que no aporte valor.',
     },
     {
       termino: 'Heterogeneidad',
@@ -283,8 +283,8 @@ export default {
         'Un servicio no está disponible al consumidor para que sea mirado, escuchado, degustado, tocado o pesado u olido, antes de tomar la decisión de compra. En otras palabras, los servicios no son palpables, son un hecho, ejecución o un esfuerzo. El consumo de un servicio no puede ser apartado de la producción. La intangibilidad es la diferencia primordial entre los bienes y los servicios.',
     },
     {
-      termino: 'Lead Time',
-      terminoHtml: '<em>Lead Time</em>',
+      termino: 'Lead time',
+      terminoHtml: '<em>Lead time</em>',
       significado:
         'Significa el tiempo de entrega en logística, es el periodo de tiempo que pasa desde que el cliente realiza la compra hasta que el proveedor entrega el producto al cliente, es decir, hasta que el cliente lo recibe. ',
     },
@@ -308,26 +308,26 @@ export default {
       termino: 'Supply Chain',
       terminoHtml: '<em>Supply Chain</em>',
       significado:
-        'SC por sus siglas en inglés que significa Cadena de Suministro, es un proceso continuo que se desarrolla por eslabones, en donde cada eslabón es el insumo del siguiente, en el cual intervienen unos actores de la cadena, para transformar una materia prima en un producto terminado, con el fin de satisfacer las necesidades del consumidor final respecto a una compra realizada.',
+        ' SC por sus siglas en inglés que significa cadena de suministro, es un proceso continuo que se desarrolla por eslabones, en donde cada eslabón es el insumo del siguiente, en el cual intervienen unos actores de la cadena, para transformar una materia prima en un producto terminado, con el fin de satisfacer las necesidades del consumidor final respecto a una compra realizada.',
     },
     {
-      termino: 'Supply Chain Management:',
+      termino: 'Supply Chain Management',
       terminoHtml: '<em>Supply Chain Management:</em>',
       significado:
-        'SCM por sus siglas en inglés que significa Gestión o administración de la cadena de suministro, es un conjunto de actividades que integra tres procesos principales y los flujos de información, de productos y de pagos, en la planificación de las actividades de suministro, en la producción y en la distribución dentro de una empresa, con la participación de los proveedores, los clientes y los consumidores finales.',
+        ' SCM por sus siglas en inglés que significa gestión o administración de la cadena de suministro, es un conjunto de actividades que integra tres procesos principales y los flujos de información, de productos y de pagos, en la planificación de las actividades de suministro, en la producción y en la distribución dentro de una empresa, con la participación de los proveedores, los clientes y los consumidores finales.',
     },
   ],
   complementario: [
     {
       texto:
-        'Iquique TV Noticias. (2019). La Cadena de Suministros y sus eslabones [Video]. YouTube.”',
+        'Iquique TV Noticias. (2019). La Cadena de Suministros y sus eslabones [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=LeoQpz6UM7o',
     },
     {
       texto:
         'Chopra, S. y Meindl, P. (2008). Administración de la Cadena de Suministro. Estrategia, planeación y operación.',
-      tipo: 'libro',
+      tipo: 'Libro',
       link:
         'http://up-rid2.up.ac.pa:8080/xmlui/bitstream/handle/123456789/1340/Administraci%c3%b3n%20de%20la%20cadena%20de%20suministro.pdf?sequence=1&isAllowed=y',
     },
@@ -340,7 +340,7 @@ export default {
     },
     {
       texto:
-        'IMEFI TV. (2017). Canales de Distribución - Marketing en un minuto [Video]. YouTube. ',
+        'IMEFI TV. (2017). Canales de Distribución - <i>Marketing</i> en un minuto [Video]. YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=cGwlGtu14O0&list=RDCMUCwh64yBHC2TCaNMaSRHHTCA&index=1',
@@ -359,7 +359,31 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Andrea del Pilar Torres Gallardo',
+        cargo: 'Experta temática',
+        centro:
+          'Centro de la Industria, Empresa y Servicios CIES - Regional Norte de Santander',
+      },
+      {
+        nombre: 'Paola Moya Peralta',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -367,49 +391,102 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Luis Gabriel Urueta Alvarez',
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'María Natalia Maldonado Delgado',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Luis Gabriel Urueta Alvarez',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ángela María Maldonado Jaime',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carlos Eduardo Garavito Parada',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carmen Alicia Martínez Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ricardo Vásquez Arroyave',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Diego Fernando Velasco Güiza',
         cargo: 'Desarrollo Front-End',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

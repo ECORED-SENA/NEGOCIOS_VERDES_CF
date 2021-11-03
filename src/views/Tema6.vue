@@ -13,7 +13,7 @@
     p.mb-4 Para que el producto fabricado o producido llegue hasta el cliente final en tiempo y forma, las empresas deberán escoger la estrategia de distribución más adecuada, entre las cuales se encuentran:
 
     TabsA.color-acento-contenido.mb-5
-      .tarjeta.color-acento-contenido.BG31.p-4(titulo="Tradicional")
+      .tarjeta.color-acento-contenido.BG31.p-4(titulo="Estrategia intensiva")
         .row.align-items-center.justify-content-center
           .col-6.col-lg-2.mb-4.mb-lg-0
             figure
@@ -64,7 +64,7 @@
         figure
           img(src='@/assets/curso/tema6/img04.svg', alt='Canal directo')              
       .col-lg-5
-        p Se refiere al envío de manera directa del producto por parte del fabricante al cliente final, es decir, sin intermediación. Este tipo de canal de distribución es recomendable para los emprendedores, ya que la persona se encarga de vender sus productos en su mismo punto de venta, en internet a través del comercio electrónico o e-commerce, mediante visitas domiciliarias si así lo requiere o inclusive llamadas telefónicas. Por ejemplo, el postre que se vende en una pastelería, cuyo local puede ser la misma casa o su puesto de venta.
+        p Se refiere al envío de manera directa del producto por parte del fabricante al cliente final, es decir, sin intermediación. Este tipo de canal de distribución es recomendable para los emprendedores, ya que la persona se encarga de vender sus productos en su mismo punto de venta, en internet a través del comercio electrónico o #[i e-commerce], mediante visitas domiciliarias si así lo requiere o inclusive llamadas telefónicas. #[b Por ejemplo], el postre que se vende en una pastelería, cuyo local puede ser la misma casa o su puesto de venta.
     
     p.mb-4 Existen algunas ventajas y desventajas al utilizar este canal de distribución:
 
@@ -106,6 +106,8 @@
     
     p.mb-4 Se refiere al envío del producto por parte del fabricante al cliente final, pero utilizando uno o más intermediarios. Este tipo de canal de distribución es el más común, ya que intervienen los agentes, mayoristas, minoristas y detallistas.
 
+    p.mb-4 Así mismo, los canales de distribución indirectos se dividen en tres (3) tipos ver figura 3:
+
     .row.justify-content-center.mb-5
       .col-md-10.col-lg-4.mb-4.mb-lg-0
         .TFcontainer
@@ -126,7 +128,7 @@
           img.TFimage(src='@/assets/curso/tema6/img09.jpg', alt='Fase 3')
           .TFoverlay--02.text-white.p-3
             h5 Canal indirecto doble
-            p.mb-0 En este canal de distribución intervienen mayoristas, minoristas y agentes. Un agente es el distribuidor exclusivo de algún tipo de bien y/o servicio. Por ejemplo, un negocio que se trabaje por medio de franquicias tal como el negocio de batidos o jugos de frutas en Colombia o cadenas de restaurantes de comida rápida de pizzería o hamburguesas.
+            p.mb-0 En este canal de distribución intervienen mayoristas, minoristas y agentes. Un agente es el distribuidor exclusivo de algún tipo de bien y/o servicio. Por ejemplo, un negocio que se trabaje por medio de franquicias tal como el negocio de batidos o jugos de frutas en Colombia o cadenas de restaurantes de comida rápida, de pizzería o hamburguesas.    
     
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -145,7 +147,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Para profundizar sobre los canales de distribución, te invitamos a ver el video #[strong “Canales de distribución – Marketing en un minuto”], que se encuentra en el material complementario. 
+                  p.mb-0 Para profundizar sobre los canales de distribución, te invitamos a ver el siguiente video: #[strong “Canales de distribución – Marketing en un minuto”].
                 .col-sm-auto
                   a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=cGwlGtu14O0&list=RDCMUCwh64yBHC2TCaNMaSRHHTCA&index=2" target="_blank")
                     span Ver
