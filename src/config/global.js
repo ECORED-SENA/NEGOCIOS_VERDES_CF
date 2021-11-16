@@ -312,7 +312,7 @@ export default {
     },
     {
       termino: 'Supply Chain Management',
-      terminoHtml: '<em>Supply Chain Management:</em>',
+      terminoHtml: '<em>Supply Chain Management</em>',
       significado:
         ' SCM por sus siglas en inglés que significa gestión o administración de la cadena de suministro, es un conjunto de actividades que integra tres procesos principales y los flujos de información, de productos y de pagos, en la planificación de las actividades de suministro, en la producción y en la distribución dentro de una empresa, con la participación de los proveedores, los clientes y los consumidores finales.',
     },
@@ -323,13 +323,6 @@ export default {
         'Iquique TV Noticias. (2019). La Cadena de Suministros y sus eslabones [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=LeoQpz6UM7o',
-    },
-    {
-      texto:
-        'Chopra, S. y Meindl, P. (2008). Administración de la Cadena de Suministro. Estrategia, planeación y operación.',
-      tipo: 'Libro',
-      link:
-        'http://up-rid2.up.ac.pa:8080/xmlui/bitstream/handle/123456789/1340/Administraci%c3%b3n%20de%20la%20cadena%20de%20suministro.pdf?sequence=1&isAllowed=y',
     },
     {
       texto:
@@ -465,7 +458,7 @@ export default {
       },
       {
         nombre: 'Diego Fernando Velasco Güiza',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

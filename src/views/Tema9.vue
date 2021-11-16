@@ -86,7 +86,7 @@
     p.mb-4 Existe una manera básica para calcular el nivel de servicio, teniendo en cuenta el número de artículos de una referencia que se vendieron y el número de artículos que no pudieron ser suministrados por falta de existencias o #[i stock], existiendo un pedido por parte del cliente. Se calcula de la siguiente forma:
 
     .row.justify-content-center
-      .col-lg-7.bordColor01.p-5.mb-5
+      .col-lg-7.bordColor01.p-5.mb-5.BG00
         figure
           img(src='@/assets/curso/tema9/img11.svg', alt='')
         

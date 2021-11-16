@@ -14,7 +14,7 @@
     p.mb-4 Para una buena gestión de inventarios, existen dos (2) sistemas de control para las empresas que les permite tomar decisiones frente a dicha gestión:
 
     .video.mb-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/Q92N-0QZpWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     h3 Diferencias entre el sistema #[i Push y Pull]
 

@@ -80,38 +80,36 @@
     .row.justify-content-center
       .col-lg-10
         .tarjeta.tarjeta--gris.p-4.mb-5
-          //- PasosB debe ir acompañado de una de una de estas clases => 
-          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
           PasosB.color-acento-botones
 
             .row.bgImg03.minH01.justify-content-end.align-items-center.br01(titulo="")
-              .col-md-5.text-white.text-end.pe-5.textShadow
+              .col-md-7.col-lg-5.text-white.text-end.pe-5.textShadow
                 h1.mb-0 Suministro de materia prima por proveedores
 
             .row.bgImg04.minH01.justify-content-end.align-items-center.br01(titulo="")
-              .col-md-5.text-white.text-end.pe-5.textShadow
+              .col-md-7.col-lg-5.text-white.text-end.pe-5.textShadow
                 h1.mb-0 Almacén de materia prima
             
             .row.bgImg05.minH01.justify-content-end.align-items-center.br01(titulo="")
-              .col-md-5.text-white.text-end.pe-5.textShadow
+              .col-md-7.col-lg-5.text-white.text-end.pe-5.textShadow
                 h1.mb-0 Producción o transformación de la materia prima
             
             .row.bgImg06.minH01.justify-content-end.align-items-center.br01(titulo="")
-              .col-md-5.text-white.text-end.pe-5.textShadow
+              .col-md-7.col-lg-5.text-white.text-end.pe-5.textShadow
                 h1.mb-0 Almacén de producto terminado
             
             .row.bgImg07.minH01.justify-content-end.align-items-center.br01(titulo="")
-              .col-md-5.text-white.text-end.pe-5.textShadow
+              .col-md-7.col-lg-5.text-white.text-end.pe-5.textShadow
                 h1.mb-4 Centro de distribución y transporte
                 p.mb-0 Puede ser propio o por un tercero. El producto se transporta hacia su destino final.
             
             .row.bgImg08.minH01.justify-content-end.align-items-center.br01(titulo="")
-              .col-md-5.text-white.text-end.pe-5.textShadow
+              .col-md-7.col-lg-5.text-white.text-end.pe-5.textShadow
                 h1.mb-4 Ventas al cliente
                 p.mb-0 Se relaciona con la comercialización del producto o servicio. Se pueden dar las importaciones y las exportaciones.
             
             .row.bgImg09.minH01.justify-content-end.align-items-center.br01(titulo="")
-              .col-md-5.text-white.text-end.pe-5.textShadow
+              .col-md-7.col-lg-5.text-white.text-end.pe-5.textShadow
                 h1.mb-4 Entrega al consumidor final
                 p.mb-0 Se relaciona con la entrega del producto o servicio final en el punto de venta física o por medios electrónicos.
       
