@@ -106,8 +106,6 @@
     
     p.mb-4 Se refiere al envío del producto por parte del fabricante al cliente final, pero utilizando uno o más intermediarios. Este tipo de canal de distribución es el más común, ya que intervienen los agentes, mayoristas, minoristas y detallistas.
 
-    p.mb-4 Así mismo, los canales de distribución indirectos se dividen en tres (3) tipos ver figura 3:
-
     .row.justify-content-center.mb-5
       .col-md-10.col-lg-4.mb-4.mb-lg-0
         .TFcontainer
@@ -130,7 +128,7 @@
             h5 Canal indirecto doble
             p.mb-0 En este canal de distribución intervienen mayoristas, minoristas y agentes. Un agente es el distribuidor exclusivo de algún tipo de bien y/o servicio. Por ejemplo, un negocio que se trabaje por medio de franquicias tal como el negocio de batidos o jugos de frutas en Colombia o cadenas de restaurantes de comida rápida, de pizzería o hamburguesas.    
     
-    p.mb-4 Así mismo, los canales de distribuciónindirectos se dividen en tres (3) tipos, ver figura 3:
+    p.mb-4 Así mismo, los canales de distribución indirectos se dividen en tres (3) tipos, ver figura 3:
 
     .row.justify-content-center.mb-5
       .col-lg-10
